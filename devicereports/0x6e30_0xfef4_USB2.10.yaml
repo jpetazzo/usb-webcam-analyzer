@@ -1,0 +1,151 @@
+bcdUSB: '2.10'
+endpoints:
+- {bitrate: 4096000, humanbitrate: 4096Kb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0040  1x 64 bytes}
+- {bitrate: 12288000, humanbitrate: 12Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1040  3x 64 bytes}
+- {bitrate: 12288000, humanbitrate: 12Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x00c0  1x 192 bytes}
+- {bitrate: 36864000, humanbitrate: 36Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x10c0  3x 192 bytes}
+- {bitrate: 24576000, humanbitrate: 24Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0180  1x 384 bytes}
+- {bitrate: 32768000, humanbitrate: 32Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0200  1x 512 bytes}
+- {bitrate: 40960000, humanbitrate: 40Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0280  1x 640 bytes}
+- {bitrate: 51200000, humanbitrate: 51Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0320  1x 800 bytes}
+- {bitrate: 60416000, humanbitrate: 60Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x03b0  1x 944 bytes}
+- {bitrate: 65536000, humanbitrate: 65Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 81920000, humanbitrate: 81Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0a80  2x 640 bytes}
+- {bitrate: 126976000, humanbitrate: 126Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0be0  2x 992 bytes}
+- {bitrate: 131072000, humanbitrate: 131Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0c00  2x 1024 bytes}
+- {bitrate: 172032000, humanbitrate: 172Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1380  3x 896 bytes}
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1400  3x 1024 bytes}
+formats:
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [60, 30, 24, 20, 15]
+    h: 360
+    humanbitrate: 55Mb/s-221Mb/s
+    maxbps: 221184000
+    minbps: 55296000
+    resolution: 640x360
+    w: 640
+  - fps: [60, 30, 24, 20, 15]
+    h: 540
+    humanbitrate: 124Mb/s-497Mb/s
+    maxbps: 497664000
+    minbps: 124416000
+    resolution: 960x540
+    w: 960
+  - fps: [60, 30, 24, 20, 15]
+    h: 720
+    humanbitrate: 221Mb/s-884Mb/s
+    maxbps: 884736000
+    minbps: 221184000
+    resolution: 1280x720
+    w: 1280
+  - fps: [60, 30, 24, 20, 15]
+    h: 1080
+    humanbitrate: 497Mb/s-1990Mb/s
+    maxbps: 1990656000
+    minbps: 497664000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [30, 24, 20, 15]
+    h: 2160
+    humanbitrate: 1327Mb/s
+    maxbps: 1327104000
+    minbps: 1327104000
+    resolution: 3840x2160
+    w: 3840
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [15, 10, 5]
+    h: 540
+    humanbitrate: 41Mb/s-124Mb/s
+    maxbps: 124416000
+    minbps: 41472000
+    resolution: 960x540
+    w: 960
+  - fps: [10, 5]
+    h: 720
+    humanbitrate: 73Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [5]
+    h: 1080
+    humanbitrate: 73Mb/s
+    maxbps: 73728000
+    minbps: 73728000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [1]
+    h: 2160
+    humanbitrate: 265Mb/s
+    maxbps: 265420800
+    minbps: 265420800
+    resolution: 3840x2160
+    w: 3840
+- bpp: 16
+  fourcc: H264
+  name: FORMAT_FRAME_BASED
+  resolutions:
+  - fps: [60, 30, 24, 20, 15]
+    h: 360
+    humanbitrate: 55Mb/s-221Mb/s
+    maxbps: 221184000
+    minbps: 55296000
+    resolution: 640x360
+    w: 640
+  - fps: [60, 30, 24, 20, 15]
+    h: 540
+    humanbitrate: 124Mb/s-497Mb/s
+    maxbps: 497664000
+    minbps: 124416000
+    resolution: 960x540
+    w: 960
+  - fps: [60, 30, 24, 20, 15]
+    h: 720
+    humanbitrate: 221Mb/s-884Mb/s
+    maxbps: 884736000
+    minbps: 221184000
+    resolution: 1280x720
+    w: 1280
+  - fps: [60, 30, 24, 20, 15]
+    h: 1080
+    humanbitrate: 497Mb/s-1990Mb/s
+    maxbps: 1990656000
+    minbps: 497664000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [30, 24, 20, 15]
+    h: 2160
+    humanbitrate: 1327Mb/s
+    maxbps: 1327104000
+    minbps: 1327104000
+    resolution: 3840x2160
+    w: 3840
+iProduct: 2 OBSBOT Tiny 4K
+idProduct: '0xfef4'
+idVendor: '0x6e30'

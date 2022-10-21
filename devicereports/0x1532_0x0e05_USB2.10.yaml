@@ -1,0 +1,106 @@
+bcdUSB: '2.10'
+endpoints:
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1400  3x 1024 bytes}
+formats:
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 147Mb/s
+    maxbps: 147456000
+    minbps: 147456000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 110Mb/s
+    maxbps: 110592000
+    minbps: 110592000
+    resolution: 640x360
+    w: 640
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 294Mb/s
+    maxbps: 294912000
+    minbps: 294912000
+    resolution: 640x480
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 221Mb/s
+    maxbps: 221184000
+    minbps: 221184000
+    resolution: 640x360
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 720
+    humanbitrate: 884Mb/s
+    maxbps: 884736000
+    minbps: 884736000
+    resolution: 1280x720
+    w: 1280
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 1080
+    humanbitrate: 1990Mb/s
+    maxbps: 1990656000
+    minbps: 1990656000
+    resolution: 1920x1080
+    w: 1920
+- bpp: 16
+  fourcc: H264
+  name: FORMAT_FRAME_BASED
+  resolutions:
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 251Mb/s-503Mb/s
+    maxbps: 503316480
+    minbps: 251658240
+    resolution: 640x480
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 251Mb/s-503Mb/s
+    maxbps: 503316480
+    minbps: 251658240
+    resolution: 640x360
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 720
+    humanbitrate: 251Mb/s-503Mb/s
+    maxbps: 503316480
+    minbps: 251658240
+    resolution: 1280x720
+    w: 1280
+  - fps: [60, 30, 24, 20, 15, 10, 5]
+    h: 1080
+    humanbitrate: 251Mb/s-503Mb/s
+    maxbps: 503316480
+    minbps: 251658240
+    resolution: 1920x1080
+    w: 1920
+- bpp: 12
+  fourcc: NV12
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 110Mb/s
+    maxbps: 110592000
+    minbps: 110592000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 82Mb/s
+    maxbps: 82944000
+    minbps: 82944000
+    resolution: 640x360
+    w: 640
+iProduct: 2 Razer Kiyo Pro
+idProduct: '0x0e05'
+idVendor: 0x1532 Razer USA, Ltd

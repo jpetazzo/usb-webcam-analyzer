@@ -1,0 +1,44 @@
+HD Pro Webcam C920
+Vendor ID: 0x046d Logitech, Inc.
+Product ID: 0x0892 C920 HD Pro Webcam
+USB version: 2.00
+Endpoints: 12Mb/s 24Mb/s 32Mb/s 40Mb/s 51Mb/s 60Mb/s 81Mb/s 102Mb/s 126Mb/s 172Mb/s 196Mb/s
+Formats:
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  160x90 @ 30fps ~ 1152Kb/s-6912Kb/s
+  160x120 @ 30fps ~ 1536Kb/s-9216Kb/s
+  176x144 @ 30fps ~ 2027Kb/s-12Mb/s
+  320x180 @ 30fps ~ 4608Kb/s-27Mb/s
+  320x240 @ 30fps ~ 6144Kb/s-36Mb/s
+  352x288 @ 30fps ~ 8110Kb/s-48Mb/s
+  432x240 @ 30fps ~ 8294Kb/s-49Mb/s
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  800x448 @ 30fps ~ 28Mb/s-172Mb/s
+  800x600 @ 24fps ~ 38Mb/s-184Mb/s
+  864x480 @ 24fps ~ 33Mb/s-159Mb/s
+  960x720 @ 15fps ~ 55Mb/s-165Mb/s
+  1024x576 @ 15fps ~ 47Mb/s-141Mb/s
+  1280x720 @ 10fps ~ 73Mb/s-147Mb/s
+  1600x896 @ 8fps ~ 114Mb/s-172Mb/s
+  1920x1080 @ 5fps ~ 165Mb/s
+  2304x1296 @ 2fps ~ 238Mb/s
+  2304x1536 @ 2fps ~ 283Mb/s
+- FORMAT_MJPEG
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  160x90 @ 30fps ~ 1152Kb/s-6912Kb/s
+  160x120 @ 30fps ~ 1536Kb/s-9216Kb/s
+  176x144 @ 30fps ~ 2027Kb/s-12Mb/s
+  320x180 @ 30fps ~ 4608Kb/s-27Mb/s
+  320x240 @ 30fps ~ 6144Kb/s-36Mb/s
+  352x288 @ 30fps ~ 8110Kb/s-48Mb/s
+  432x240 @ 30fps ~ 8294Kb/s-49Mb/s
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  800x448 @ 30fps ~ 28Mb/s-172Mb/s
+  800x600 @ 30fps ~ 38Mb/s-230Mb/s
+  864x480 @ 30fps ~ 33Mb/s-199Mb/s
+  960x720 @ 30fps ~ 55Mb/s-331Mb/s
+  1024x576 @ 30fps ~ 47Mb/s-283Mb/s
+  1280x720 @ 30fps ~ 73Mb/s-442Mb/s
+  1600x896 @ 30fps ~ 114Mb/s-688Mb/s
+  1920x1080 @ 30fps ~ 165Mb/s-995Mb/s

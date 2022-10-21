@@ -1,0 +1,219 @@
+bcdUSB: '3.20'
+endpoints:
+- {bitrate: 24576000, humanbitrate: 24Mb/s, interval: '1', maxburst: '0', mult: '?',
+  packet: 0x0180  1x 384 bytes}
+- {bitrate: 40960000, humanbitrate: 40Mb/s, interval: '1', maxburst: '0', mult: '?',
+  packet: 0x0280  1x 640 bytes}
+- {bitrate: 60416000, humanbitrate: 60Mb/s, interval: '1', maxburst: '0', mult: '?',
+  packet: 0x03b0  1x 944 bytes}
+- {bitrate: 65536000, humanbitrate: 65Mb/s, interval: '1', maxburst: '0', mult: '?',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 131072000, humanbitrate: 131Mb/s, interval: '1', maxburst: '1', mult: '?',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '2', mult: '?',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 393216000, humanbitrate: 393Mb/s, interval: '1', maxburst: '2', mult: '1',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 589824000, humanbitrate: 589Mb/s, interval: '1', maxburst: '2', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 786432000, humanbitrate: 786Mb/s, interval: '1', maxburst: '3', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 983040000, humanbitrate: 983Mb/s, interval: '1', maxburst: '4', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 1179648000, humanbitrate: 1179Mb/s, interval: '1', maxburst: '5', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 1376256000, humanbitrate: 1376Mb/s, interval: '1', maxburst: '6', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 1572864000, humanbitrate: 1572Mb/s, interval: '1', maxburst: '7', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+- {bitrate: 1966080000, humanbitrate: 1966Mb/s, interval: '1', maxburst: '9', mult: '2',
+  packet: 0x0400  1x 1024 bytes}
+formats:
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 144
+    humanbitrate: 2027Kb/s-12Mb/s
+    maxbps: 12165120
+    minbps: 2027520
+    resolution: 176x144
+    w: 176
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-36Mb/s
+    maxbps: 36864000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 8140Kb/s-48Mb/s
+    maxbps: 48844800
+    minbps: 8140800
+    resolution: 424x240
+    w: 424
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 32Mb/s-195Mb/s
+    maxbps: 195379200
+    minbps: 32563200
+    resolution: 848x480
+    w: 848
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 540
+    humanbitrate: 41Mb/s-248Mb/s
+    maxbps: 248832000
+    minbps: 41472000
+    resolution: 960x540
+    w: 960
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 720
+    humanbitrate: 73Mb/s-442Mb/s
+    maxbps: 442368000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 896
+    humanbitrate: 114Mb/s-688Mb/s
+    maxbps: 688128000
+    minbps: 114688000
+    resolution: 1600x896
+    w: 1600
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-995Mb/s
+    maxbps: 995328000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [5]
+    h: 1296
+    humanbitrate: 238Mb/s
+    maxbps: 238878720
+    minbps: 238878720
+    resolution: 2304x1296
+    w: 2304
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 24Mb/s-294Mb/s
+    maxbps: 294912000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 144
+    humanbitrate: 2027Kb/s-24Mb/s
+    maxbps: 24330240
+    minbps: 2027520
+    resolution: 176x144
+    w: 176
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-73Mb/s
+    maxbps: 73728000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 8140Kb/s-97Mb/s
+    maxbps: 97689600
+    minbps: 8140800
+    resolution: 424x240
+    w: 424
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 360
+    humanbitrate: 18Mb/s-221Mb/s
+    maxbps: 221184000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 32Mb/s-390Mb/s
+    maxbps: 390758400
+    minbps: 32563200
+    resolution: 848x480
+    w: 848
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 540
+    humanbitrate: 41Mb/s-497Mb/s
+    maxbps: 497664000
+    minbps: 41472000
+    resolution: 960x540
+    w: 960
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 720
+    humanbitrate: 73Mb/s-884Mb/s
+    maxbps: 884736000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 896
+    humanbitrate: 114Mb/s-1376Mb/s
+    maxbps: 1376256000
+    minbps: 114688000
+    resolution: 1600x896
+    w: 1600
+  - fps: [60, 30, 24, 20, 15, 10, 8, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-1990Mb/s
+    maxbps: 1990656000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+- bpp: 12
+  fourcc: NV12
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 720
+    humanbitrate: 73Mb/s-442Mb/s
+    maxbps: 442368000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-995Mb/s
+    maxbps: 995328000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+iProduct: 2 Logitech StreamCam
+idProduct: 0x0893 StreamCam
+idVendor: 0x046d Logitech, Inc.

@@ -1,0 +1,157 @@
+bcdUSB: '2.00'
+endpoints:
+- {bitrate: 8192000, humanbitrate: 8192Kb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0080  1x 128 bytes}
+- {bitrate: 16384000, humanbitrate: 16Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0100  1x 256 bytes}
+- {bitrate: 51200000, humanbitrate: 51Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0320  1x 800 bytes}
+- {bitrate: 102400000, humanbitrate: 102Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0b20  2x 800 bytes}
+- {bitrate: 153600000, humanbitrate: 153Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1320  3x 800 bytes}
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1400  3x 1024 bytes}
+formats:
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-995Mb/s
+    maxbps: 995328000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 2160
+    humanbitrate: 663Mb/s-3981Mb/s
+    maxbps: 3981312000
+    minbps: 663552000
+    resolution: 3840x2160
+    w: 3840
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1836
+    humanbitrate: 479Mb/s-2876Mb/s
+    maxbps: 2876497920
+    minbps: 479416320
+    resolution: 3264x1836
+    w: 3264
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1680
+    humanbitrate: 402Mb/s-2412Mb/s
+    maxbps: 2412748800
+    minbps: 402124800
+    resolution: 2992x1680
+    w: 2992
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1504
+    humanbitrate: 321Mb/s-1928Mb/s
+    maxbps: 1928970240
+    minbps: 321495040
+    resolution: 2672x1504
+    w: 2672
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1944
+    humanbitrate: 403Mb/s-2418Mb/s
+    maxbps: 2418647040
+    minbps: 403107840
+    resolution: 2592x1944
+    w: 2592
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1312
+    humanbitrate: 243Mb/s-1461Mb/s
+    maxbps: 1461043200
+    minbps: 243507200
+    resolution: 2320x1312
+    w: 2320
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1536
+    humanbitrate: 251Mb/s-1509Mb/s
+    maxbps: 1509949440
+    minbps: 251658240
+    resolution: 2048x1536
+    w: 2048
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 1136
+    humanbitrate: 183Mb/s-1099Mb/s
+    maxbps: 1099284480
+    minbps: 183214080
+    resolution: 2016x1136
+    w: 2016
+  - fps: [40, 30, 20, 15, 10, 5]
+    h: 1064
+    humanbitrate: 162Mb/s-1296Mb/s
+    maxbps: 1296547840
+    minbps: 162068480
+    resolution: 1904x1064
+    w: 1904
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 720
+    humanbitrate: 73Mb/s-442Mb/s
+    maxbps: 442368000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [40, 30, 20, 15, 10, 5]
+    h: 704
+    humanbitrate: 71Mb/s-569Mb/s
+    maxbps: 569507840
+    minbps: 71188480
+    resolution: 1264x704
+    w: 1264
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 600
+    humanbitrate: 38Mb/s-230Mb/s
+    maxbps: 230400000
+    minbps: 38400000
+    resolution: 800x600
+    w: 800
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-36Mb/s
+    maxbps: 36864000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [10]
+    h: 720
+    humanbitrate: 147Mb/s
+    maxbps: 147456000
+    minbps: 147456000
+    resolution: 1280x720
+    w: 1280
+  - fps: [20]
+    h: 600
+    humanbitrate: 153Mb/s
+    maxbps: 153600000
+    minbps: 153600000
+    resolution: 800x600
+    w: 800
+  - fps: [25]
+    h: 480
+    humanbitrate: 122Mb/s
+    maxbps: 122880000
+    minbps: 122880000
+    resolution: 640x480
+    w: 640
+  - fps: [25]
+    h: 240
+    humanbitrate: 30Mb/s
+    maxbps: 30720000
+    minbps: 30720000
+    resolution: 320x240
+    w: 320
+iProduct: 1 Lumina Camera - Raw
+idProduct: '0x0415'
+idVendor: 0x0c45 Microdia

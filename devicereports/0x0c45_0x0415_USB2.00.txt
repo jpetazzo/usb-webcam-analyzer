@@ -1,0 +1,27 @@
+Lumina Camera - Raw
+Vendor ID: 0x0c45 Microdia
+Product ID: 0x0415
+USB version: 2.00
+Endpoints: 8192Kb/s 16Mb/s 51Mb/s 102Mb/s 153Mb/s 196Mb/s
+Formats:
+- FORMAT_MJPEG
+  1920x1080 @ 30fps ~ 165Mb/s-995Mb/s
+  3840x2160 @ 30fps ~ 663Mb/s-3981Mb/s
+  3264x1836 @ 30fps ~ 479Mb/s-2876Mb/s
+  2992x1680 @ 30fps ~ 402Mb/s-2412Mb/s
+  2672x1504 @ 30fps ~ 321Mb/s-1928Mb/s
+  2592x1944 @ 30fps ~ 403Mb/s-2418Mb/s
+  2320x1312 @ 30fps ~ 243Mb/s-1461Mb/s
+  2048x1536 @ 30fps ~ 251Mb/s-1509Mb/s
+  2016x1136 @ 30fps ~ 183Mb/s-1099Mb/s
+  1904x1064 @ 40fps ~ 162Mb/s-1296Mb/s
+  1280x720 @ 30fps ~ 73Mb/s-442Mb/s
+  1264x704 @ 40fps ~ 71Mb/s-569Mb/s
+  800x600 @ 30fps ~ 38Mb/s-230Mb/s
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  320x240 @ 30fps ~ 6144Kb/s-36Mb/s
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  1280x720 @ 10fps ~ 147Mb/s
+  800x600 @ 20fps ~ 153Mb/s
+  640x480 @ 25fps ~ 122Mb/s
+  320x240 @ 25fps ~ 30Mb/s

@@ -1,0 +1,41 @@
+bcdUSB: '3.00'
+endpoints:
+- {bitrate: 1048576000, humanbitrate: 1048Mb/s, interval: '0', maxburst: '15', mult: '?',
+  packet: 0x0400  1x 1024 bytes}
+formats:
+- bpp: 12
+  fourcc: NV12
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30]
+    h: 2160
+    humanbitrate: 2985Mb/s
+    maxbps: 2985984000
+    minbps: 2985984000
+    resolution: 3840x2160
+    w: 3840
+- bpp: 12
+  fourcc: NV12
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30]
+    h: 2160
+    humanbitrate: 2985Mb/s
+    maxbps: 2985984000
+    minbps: 2985984000
+    resolution: 3840x2160
+    w: 3840
+- bpp: 12
+  fourcc: I420
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30]
+    h: 2160
+    humanbitrate: 2985Mb/s
+    maxbps: 2985984000
+    minbps: 2985984000
+    resolution: 3840x2160
+    w: 3840
+iProduct: 2 Cam Link 4K
+idProduct: '0x0066'
+idVendor: 0x0fd9 Elgato Systems GmbH

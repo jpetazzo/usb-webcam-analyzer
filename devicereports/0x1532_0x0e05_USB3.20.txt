@@ -1,0 +1,26 @@
+Razer Kiyo Pro
+Vendor ID: 0x1532 Razer USA, Ltd
+Product ID: 0x0e05
+USB version: 3.20
+Endpoints: 196Mb/s 2162Mb/s
+Formats:
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  640x480 @ 60fps ~ 294Mb/s
+  640x360 @ 60fps ~ 221Mb/s
+  1280x720 @ 60fps ~ 884Mb/s
+  1920x1080 @ 60fps ~ 1990Mb/s
+- FORMAT_MJPEG
+  640x480 @ 60fps ~ 294Mb/s
+  640x360 @ 60fps ~ 221Mb/s
+  1280x720 @ 60fps ~ 884Mb/s
+  1920x1080 @ 60fps ~ 1990Mb/s
+- FORMAT_FRAME_BASED, H264, 16bpp
+  640x480 @ 60fps ~ 251Mb/s-503Mb/s
+  640x360 @ 60fps ~ 251Mb/s-503Mb/s
+  1280x720 @ 60fps ~ 251Mb/s-503Mb/s
+  1920x1080 @ 60fps ~ 251Mb/s-503Mb/s
+- FORMAT_UNCOMPRESSED, NV12, 12bpp
+  640x480 @ 60fps ~ 221Mb/s
+  640x360 @ 60fps ~ 165Mb/s
+  1280x720 @ 60fps ~ 663Mb/s
+  1920x1080 @ 60fps ~ 1492Mb/s

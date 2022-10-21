@@ -1,0 +1,12 @@
+Cam Link 4K
+Vendor ID: 0x0fd9 Elgato Systems GmbH
+Product ID: 0x0066
+USB version: 3.00
+Endpoints: 1048Mb/s
+Formats:
+- FORMAT_UNCOMPRESSED, NV12, 12bpp
+  3840x2160 @ 30fps ~ 2985Mb/s
+- FORMAT_UNCOMPRESSED, NV12, 12bpp
+  3840x2160 @ 30fps ~ 2985Mb/s
+- FORMAT_UNCOMPRESSED, I420, 12bpp
+  3840x2160 @ 30fps ~ 2985Mb/s

@@ -1,0 +1,286 @@
+bcdUSB: '2.00'
+endpoints:
+- {bitrate: 12288000, humanbitrate: 12Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x00c0  1x 192 bytes}
+- {bitrate: 24576000, humanbitrate: 24Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0180  1x 384 bytes}
+- {bitrate: 32768000, humanbitrate: 32Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0200  1x 512 bytes}
+- {bitrate: 40960000, humanbitrate: 40Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0280  1x 640 bytes}
+- {bitrate: 51200000, humanbitrate: 51Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0320  1x 800 bytes}
+- {bitrate: 60416000, humanbitrate: 60Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x03b0  1x 944 bytes}
+- {bitrate: 81920000, humanbitrate: 81Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0a80  2x 640 bytes}
+- {bitrate: 102400000, humanbitrate: 102Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0b20  2x 800 bytes}
+- {bitrate: 126976000, humanbitrate: 126Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0be0  2x 992 bytes}
+- {bitrate: 172032000, humanbitrate: 172Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1380  3x 896 bytes}
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1400  3x 1024 bytes}
+formats:
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 90
+    humanbitrate: 1152Kb/s-6912Kb/s
+    maxbps: 6912000
+    minbps: 1152000
+    resolution: 160x90
+    w: 160
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 120
+    humanbitrate: 1536Kb/s-9216Kb/s
+    maxbps: 9216000
+    minbps: 1536000
+    resolution: 160x120
+    w: 160
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 144
+    humanbitrate: 2027Kb/s-12Mb/s
+    maxbps: 12165120
+    minbps: 2027520
+    resolution: 176x144
+    w: 176
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 180
+    humanbitrate: 4608Kb/s-27Mb/s
+    maxbps: 27648000
+    minbps: 4608000
+    resolution: 320x180
+    w: 320
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-36Mb/s
+    maxbps: 36864000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 288
+    humanbitrate: 8110Kb/s-48Mb/s
+    maxbps: 48660480
+    minbps: 8110080
+    resolution: 352x288
+    w: 352
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 8294Kb/s-49Mb/s
+    maxbps: 49766400
+    minbps: 8294400
+    resolution: 432x240
+    w: 432
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 448
+    humanbitrate: 28Mb/s-172Mb/s
+    maxbps: 172032000
+    minbps: 28672000
+    resolution: 800x448
+    w: 800
+  - fps: [24, 20, 15, 10, 8, 5]
+    h: 600
+    humanbitrate: 38Mb/s-184Mb/s
+    maxbps: 184320000
+    minbps: 38400000
+    resolution: 800x600
+    w: 800
+  - fps: [24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 33Mb/s-159Mb/s
+    maxbps: 159252480
+    minbps: 33177600
+    resolution: 864x480
+    w: 864
+  - fps: [15, 10, 8, 5]
+    h: 720
+    humanbitrate: 55Mb/s-165Mb/s
+    maxbps: 165888000
+    minbps: 55296000
+    resolution: 960x720
+    w: 960
+  - fps: [15, 10, 8, 5]
+    h: 576
+    humanbitrate: 47Mb/s-141Mb/s
+    maxbps: 141557760
+    minbps: 47185920
+    resolution: 1024x576
+    w: 1024
+  - fps: [10, 8, 5]
+    h: 720
+    humanbitrate: 73Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [8, 5]
+    h: 896
+    humanbitrate: 114Mb/s-172Mb/s
+    maxbps: 172032000
+    minbps: 114688000
+    resolution: 1600x896
+    w: 1600
+  - fps: [5]
+    h: 1080
+    humanbitrate: 165Mb/s
+    maxbps: 165888000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [2]
+    h: 1296
+    humanbitrate: 238Mb/s
+    maxbps: 238878720
+    minbps: 238878720
+    resolution: 2304x1296
+    w: 2304
+  - fps: [2]
+    h: 1536
+    humanbitrate: 283Mb/s
+    maxbps: 283115520
+    minbps: 283115520
+    resolution: 2304x1536
+    w: 2304
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 90
+    humanbitrate: 1152Kb/s-6912Kb/s
+    maxbps: 6912000
+    minbps: 1152000
+    resolution: 160x90
+    w: 160
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 120
+    humanbitrate: 1536Kb/s-9216Kb/s
+    maxbps: 9216000
+    minbps: 1536000
+    resolution: 160x120
+    w: 160
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 144
+    humanbitrate: 2027Kb/s-12Mb/s
+    maxbps: 12165120
+    minbps: 2027520
+    resolution: 176x144
+    w: 176
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 180
+    humanbitrate: 4608Kb/s-27Mb/s
+    maxbps: 27648000
+    minbps: 4608000
+    resolution: 320x180
+    w: 320
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-36Mb/s
+    maxbps: 36864000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 288
+    humanbitrate: 8110Kb/s-48Mb/s
+    maxbps: 48660480
+    minbps: 8110080
+    resolution: 352x288
+    w: 352
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 240
+    humanbitrate: 8294Kb/s-49Mb/s
+    maxbps: 49766400
+    minbps: 8294400
+    resolution: 432x240
+    w: 432
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 448
+    humanbitrate: 28Mb/s-172Mb/s
+    maxbps: 172032000
+    minbps: 28672000
+    resolution: 800x448
+    w: 800
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 600
+    humanbitrate: 38Mb/s-230Mb/s
+    maxbps: 230400000
+    minbps: 38400000
+    resolution: 800x600
+    w: 800
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 480
+    humanbitrate: 33Mb/s-199Mb/s
+    maxbps: 199065600
+    minbps: 33177600
+    resolution: 864x480
+    w: 864
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 720
+    humanbitrate: 55Mb/s-331Mb/s
+    maxbps: 331776000
+    minbps: 55296000
+    resolution: 960x720
+    w: 960
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 576
+    humanbitrate: 47Mb/s-283Mb/s
+    maxbps: 283115520
+    minbps: 47185920
+    resolution: 1024x576
+    w: 1024
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 720
+    humanbitrate: 73Mb/s-442Mb/s
+    maxbps: 442368000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 896
+    humanbitrate: 114Mb/s-688Mb/s
+    maxbps: 688128000
+    minbps: 114688000
+    resolution: 1600x896
+    w: 1600
+  - fps: [30, 24, 20, 15, 10, 8, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-995Mb/s
+    maxbps: 995328000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+iProduct: 2 HD Pro Webcam C920
+idProduct: 0x0892 C920 HD Pro Webcam
+idVendor: 0x046d Logitech, Inc.

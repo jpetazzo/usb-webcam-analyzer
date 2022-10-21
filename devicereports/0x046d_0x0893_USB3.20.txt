@@ -1,0 +1,34 @@
+Logitech StreamCam
+Vendor ID: 0x046d Logitech, Inc.
+Product ID: 0x0893 StreamCam
+USB version: 3.20
+Endpoints: 24Mb/s 40Mb/s 60Mb/s 65Mb/s 131Mb/s 196Mb/s 393Mb/s 589Mb/s 786Mb/s 983Mb/s 1179Mb/s 1376Mb/s 1572Mb/s 1966Mb/s
+Formats:
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  176x144 @ 30fps ~ 2027Kb/s-12Mb/s
+  320x240 @ 30fps ~ 6144Kb/s-36Mb/s
+  424x240 @ 30fps ~ 8140Kb/s-48Mb/s
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  848x480 @ 30fps ~ 32Mb/s-195Mb/s
+  960x540 @ 30fps ~ 41Mb/s-248Mb/s
+  1280x720 @ 30fps ~ 73Mb/s-442Mb/s
+  1600x896 @ 30fps ~ 114Mb/s-688Mb/s
+  1920x1080 @ 30fps ~ 165Mb/s-995Mb/s
+  2304x1296 @ 5fps ~ 238Mb/s
+- FORMAT_MJPEG
+  640x480 @ 60fps ~ 24Mb/s-294Mb/s
+  176x144 @ 60fps ~ 2027Kb/s-24Mb/s
+  320x240 @ 60fps ~ 6144Kb/s-73Mb/s
+  424x240 @ 60fps ~ 8140Kb/s-97Mb/s
+  640x360 @ 60fps ~ 18Mb/s-221Mb/s
+  848x480 @ 60fps ~ 32Mb/s-390Mb/s
+  960x540 @ 60fps ~ 41Mb/s-497Mb/s
+  1280x720 @ 60fps ~ 73Mb/s-884Mb/s
+  1600x896 @ 60fps ~ 114Mb/s-1376Mb/s
+  1920x1080 @ 60fps ~ 165Mb/s-1990Mb/s
+- FORMAT_UNCOMPRESSED, NV12, 12bpp
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  1280x720 @ 30fps ~ 73Mb/s-442Mb/s
+  1920x1080 @ 30fps ~ 165Mb/s-995Mb/s

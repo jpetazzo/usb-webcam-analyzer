@@ -1,0 +1,24 @@
+OBSBOT Tiny 4K
+Vendor ID: 0x6e30
+Product ID: 0xfef4
+USB version: 2.10
+Endpoints: 4096Kb/s 12Mb/s 24Mb/s 32Mb/s 36Mb/s 40Mb/s 51Mb/s 60Mb/s 65Mb/s 81Mb/s 126Mb/s 131Mb/s 172Mb/s 196Mb/s
+Formats:
+- FORMAT_MJPEG
+  640x360 @ 60fps ~ 55Mb/s-221Mb/s
+  960x540 @ 60fps ~ 124Mb/s-497Mb/s
+  1280x720 @ 60fps ~ 221Mb/s-884Mb/s
+  1920x1080 @ 60fps ~ 497Mb/s-1990Mb/s
+  3840x2160 @ 30fps ~ 1327Mb/s
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  960x540 @ 15fps ~ 41Mb/s-124Mb/s
+  1280x720 @ 10fps ~ 73Mb/s-147Mb/s
+  1920x1080 @ 5fps ~ 73Mb/s
+  3840x2160 @ 1fps ~ 265Mb/s
+- FORMAT_FRAME_BASED, H264, 16bpp
+  640x360 @ 60fps ~ 55Mb/s-221Mb/s
+  960x540 @ 60fps ~ 124Mb/s-497Mb/s
+  1280x720 @ 60fps ~ 221Mb/s-884Mb/s
+  1920x1080 @ 60fps ~ 497Mb/s-1990Mb/s
+  3840x2160 @ 30fps ~ 1327Mb/s
