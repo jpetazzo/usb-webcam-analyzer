@@ -4,6 +4,7 @@
 <!-- Do not edit it manually! -->
 
 - [Cam Link 4K](devicereports/0x0fd9_0x0066_USB3.00.txt) (USB3)
+- [CyberTrack H4](devicereports/0x0c45_0x636b_USB2.00.txt) (USB2)
 - [HD Pro Webcam C920](devicereports/0x046d_0x0892_USB2.00.txt) (USB2)
 - [Logitech BRIO](devicereports/0x046d_0x085e_USB3.10.txt) (USB3)
 - [Logitech StreamCam](devicereports/0x046d_0x0893_USB3.20.txt) (USB3)
