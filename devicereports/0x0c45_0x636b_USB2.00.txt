@@ -1,0 +1,20 @@
+CyberTrack H4
+Vendor ID: 0x0c45 Sonix Technology Co., Ltd.
+Product ID: 0x636b CyberTrack H4 
+USB version: 2.00
+Endpoints: 8192Kb/s 16Mb/s 51Mb/s 102Mb/s 153Mb/s 196Mb/s
+Formats:
+- FORMAT_MJPEG
+  1280x720 @ 30fps ~ 73Mb/s-442Mb/s
+  1920x1080 @ 30fps ~ 165Mb/s-995Mb/s
+  1280x960 @ 30fps ~ 98Mb/s-589Mb/s
+  1024x768 @ 30fps ~ 62Mb/s-377Mb/s
+  800x600 @ 30fps ~ 38Mb/s-230Mb/s
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  640x360 @ 30fps ~ 18Mb/s-110Mb/s
+  320x240 @ 30fps ~ 6144Kb/s-36Mb/s
+  320x180 @ 30fps ~ 4608Kb/s-27Mb/s
+- FORMAT_UNCOMPRESSED, YUY2, 16bpp
+  640x480 @ 30fps ~ 24Mb/s-147Mb/s
+  1920x1080 @ 5fps ~ 165Mb/s
+  1280x720 @ 10fps ~ 73Mb/s-147Mb/s

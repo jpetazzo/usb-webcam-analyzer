@@ -1,0 +1,108 @@
+bcdUSB: '2.00'
+endpoints:
+- {bitrate: 8192000, humanbitrate: 8192Kb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0080  1x 128 bytes}
+- {bitrate: 16384000, humanbitrate: 16Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0100  1x 256 bytes}
+- {bitrate: 51200000, humanbitrate: 51Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0320  1x 800 bytes}
+- {bitrate: 102400000, humanbitrate: 102Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x0b20  2x 800 bytes}
+- {bitrate: 153600000, humanbitrate: 153Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1320  3x 800 bytes}
+- {bitrate: 196608000, humanbitrate: 196Mb/s, interval: '1', maxburst: '?', mult: '?',
+  packet: 0x1400  3x 1024 bytes}
+formats:
+- name: FORMAT_MJPEG
+  resolutions:
+  - fps: [30, 20, 15, 10, 5]
+    h: 720
+    humanbitrate: 73Mb/s-442Mb/s
+    maxbps: 442368000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+  - fps: [30, 20, 15, 10, 5]
+    h: 1080
+    humanbitrate: 165Mb/s-995Mb/s
+    maxbps: 995328000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [30, 20, 15, 10, 5]
+    h: 960
+    humanbitrate: 98Mb/s-589Mb/s
+    maxbps: 589824000
+    minbps: 98304000
+    resolution: 1280x960
+    w: 1280
+  - fps: [30, 20, 15, 10, 5]
+    h: 768
+    humanbitrate: 62Mb/s-377Mb/s
+    maxbps: 377487360
+    minbps: 62914560
+    resolution: 1024x768
+    w: 1024
+  - fps: [30, 20, 15, 10, 5]
+    h: 600
+    humanbitrate: 38Mb/s-230Mb/s
+    maxbps: 230400000
+    minbps: 38400000
+    resolution: 800x600
+    w: 800
+  - fps: [30, 25, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [30, 20, 15, 10, 5]
+    h: 360
+    humanbitrate: 18Mb/s-110Mb/s
+    maxbps: 110592000
+    minbps: 18432000
+    resolution: 640x360
+    w: 640
+  - fps: [30, 20, 15, 10, 5]
+    h: 240
+    humanbitrate: 6144Kb/s-36Mb/s
+    maxbps: 36864000
+    minbps: 6144000
+    resolution: 320x240
+    w: 320
+  - fps: [30, 20, 15, 10, 5]
+    h: 180
+    humanbitrate: 4608Kb/s-27Mb/s
+    maxbps: 27648000
+    minbps: 4608000
+    resolution: 320x180
+    w: 320
+- bpp: 16
+  fourcc: YUY2
+  name: FORMAT_UNCOMPRESSED
+  resolutions:
+  - fps: [30, 20, 15, 10, 5]
+    h: 480
+    humanbitrate: 24Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 24576000
+    resolution: 640x480
+    w: 640
+  - fps: [5]
+    h: 1080
+    humanbitrate: 165Mb/s
+    maxbps: 165888000
+    minbps: 165888000
+    resolution: 1920x1080
+    w: 1920
+  - fps: [10, 5]
+    h: 720
+    humanbitrate: 73Mb/s-147Mb/s
+    maxbps: 147456000
+    minbps: 73728000
+    resolution: 1280x720
+    w: 1280
+iProduct: '1 CyberTrack H4 '
+idProduct: '0x636b CyberTrack H4 '
+idVendor: 0x0c45 Sonix Technology Co., Ltd.
